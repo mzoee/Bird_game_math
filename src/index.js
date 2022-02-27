@@ -6,6 +6,7 @@ import ScoreScene from "./scenes/ScoreScene";
 import SettingsScene from "./scenes/SettingsScene";
 import PauseScene from "./scenes/PauseScene";
 import NumbersScene from "./scenes/NumbersScene";
+import HelpScene from "./scenes/HelpScene";
 
 const width = !localStorage.getItem("settings")
   ? 400
@@ -21,6 +22,7 @@ const initConfig = {
 const Scenes = [
   PreloadScene,
   MenuScene,
+  HelpScene,
   NumbersScene,
   ScoreScene,
   SettingsScene,

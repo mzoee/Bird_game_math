@@ -11,6 +11,7 @@ class MenuScene extends BaseScene {
       { scene: "NumbersScene", text: "Play" },
       { scene: "ScoreScene", text: "Score" },
       { scene: "SettingsScene", text: "Settings" },
+      { scene: "HelpScene", text: "Help" },
       { scene: null, text: "Exit" },
     ];
   }

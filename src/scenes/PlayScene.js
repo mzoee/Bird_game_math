@@ -14,7 +14,7 @@ class PlayScene extends BaseScene {
     this.config = config;
     this.bird = null;
     this.birdScale = 3;
-    this.timeBGChange = 9;
+    this.timeBGChange = 90;
     this.life = 3;
     this.heart = null;
     this.fruits = null;
@@ -650,7 +650,8 @@ class PlayScene extends BaseScene {
       this.time.addEvent({
         delay: 1000,
         callback: () => {
-          this.scene.restart();
+          //this.scene.restart();
+          this.scene.start("MenuScene");
         },
         loop: false,
       });
