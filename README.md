@@ -14,7 +14,7 @@ This repository is for a 2-D Video game called "Bird Game": multiplication pract
 
 This game has some features as below:
 
-* At the begining of the game, after running the code, the Menu is shown on the screen. It contains *play*, *score*, *setting*, *exit*. 
+* At the beginning of the game, after running the code, the Menu is shown on the screen. It contains *play*, *score*, *setting*, *exit*. 
 
 * By clicking on "Setting", the player can choose the screen resolution and the background image. 
 
@@ -24,7 +24,7 @@ This game has some features as below:
 
 * Each "Fruit" has a random number on it. Therefore, the aim of this game for the user is to eat the fruit that has a correct number (a correct multiplication of the number selcted at the beginning of the game). Five different fruits appear on the way of the bird: banana, apple, lemon, grape & pear. 
 
-* The bird is given three *hearts* at the begining of the game, So after 3 collision of the bird with the pipes or eating the wrong fruit, the game ends.
+* The bird is given three *hearts* at the beginning of the game, So after 3 collision of the bird with the pipes or eating the wrong fruit, the game ends.
 
 * Each time that the bird eats the correct fruit, the player gains score and one heart.
 
@@ -32,7 +32,7 @@ This game has some features as below:
 
 * The "Best Score" is saved for the game and is shown on the left side of the screen under the score.
 
-* The light of the backgorund screen will change during the game, from morning to evening and to night. This means that the time passes with the bird flies.
+* The light of the background screen will change during the game, from morning to evening and to night. This means that the time passes with the bird flies.
 
 
 ## The code
